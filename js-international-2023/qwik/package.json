@@ -1,0 +1,5 @@
+{
+  "devDependencies": {
+    "@octokit/openapi-types": "^19.0.0"
+  }
+}
