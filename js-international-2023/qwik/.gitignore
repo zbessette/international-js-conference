@@ -13,6 +13,7 @@ node_modules
 .mf
 .rollup.cache
 tsconfig.tsbuildinfo
+.history
 
 # Logs
 logs
@@ -25,9 +26,7 @@ lerna-debug.log*
 
 # Editor
 .vscode/*
-!.vscode/launch.json
-!.vscode/*.code-snippets
-
+!.vscode/extensions.json
 .idea
 .DS_Store
 *.suo
@@ -39,3 +38,10 @@ lerna-debug.log*
 # Yarn
 .yarn/*
 !.yarn/releases
+
+# Vercel
+.vercel
+.history
+
+# Cloudflare
+functions/**/*.js
